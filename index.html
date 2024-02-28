@@ -147,85 +147,217 @@
         <div id="carouselExample" class="carousel slide my-gallery p-0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/4.jpg" class="d-block w-100" alt="...">
+              <img src="images/4.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="images/5.jpg" class="d-block w-100" alt="...">
+              <img src="images/5.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="images/7.jpg" class="d-block w-100" alt="...">
+              <img src="images/7.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="images/8.jpg" class="d-block w-100" alt="...">
+              <img src="images/8.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="images/1.jpg" class="d-block w-100" alt="...">
+              <img src="images/1.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="images/2.jpg" class="d-block w-100" alt="...">
+              <img src="images/2.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="images/3.jpg" class="d-block w-100" alt="...">
+              <img src="images/3.jpg" class="d-block w-100" alt="..." />
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Предыдущий</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Следующий</span>
           </button>
         </div>
       </div>
 
-      <div class="features row">
+      <div class="features row g-4">
         <h2 class="col-12 text-center mb-3 mb-sm-4">Features</h2>
-        <!-- как сделать линии -->
-          <div class="col-sm-6 col-md-4  text-center p-3">
-            <img src="images/airplane-48.png" alt="">
-            <p class="fw-bolder">One</p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
 
-          <div class="col-sm-6 col-md-4  text-center p-3">
-            <img src="images/alarm_clock-48.png" alt="">
-            <p class="fw-bolder">Two</p>
-            <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur amet consectetur.</p>
-          </div>
+        <div class="col-sm-6 col-md-4 text-center p-3">
+          <img src="images/airplane-48.png" alt="" />
+          <p class="fw-bolder">One</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
 
-          <div class="col-sm-6 col-md-4  text-center p-3">
-            <img src="images/face-48.png" alt="">
-            <p class="fw-bolder">Three</p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
+        <div class="col-sm-6 col-md-4 text-center p-3">
+          <img src="images/alarm_clock-48.png" alt="" />
+          <p class="fw-bolder">Two</p>
+          <p>
+            Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur amet
+            consectetur.
+          </p>
+        </div>
 
-          <div class="col-sm-6 col-md-4  text-center p-3">
-            <img src="images/genius-48.png" alt="">
-            <p class="fw-bolder">Four</p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
+        <div class="col-sm-6 col-md-4 text-center p-3">
+          <img src="images/face-48.png" alt="" />
+          <p class="fw-bolder">Three</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
 
-          <div class="col-sm-6 col-md-4  text-center p-3">
-            <img src="images/map_marker-48.png" alt="">
-            <p class="fw-bolder">Five</p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
+        <div class="col-sm-6 col-md-4 text-center p-3">
+          <img src="images/genius-48.png" alt="" />
+          <p class="fw-bolder">Four</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
 
-          <div class="col-sm-6 col-md-4  text-center p-3">
-            <img src="images/movie-48.png" alt="">
-            <p class="fw-bolder">Six</p>
-            <p>Lorem ipsum dolor sit amet Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur. consectetur.</p>
-          </div>
+        <div class="col-sm-6 col-md-4 text-center p-3">
+          <img src="images/map_marker-48.png" alt="" />
+          <p class="fw-bolder">Five</p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
 
+        <div class="col-sm-6 col-md-4 text-center p-3">
+          <img src="images/movie-48.png" alt="" />
+          <p class="fw-bolder">Six</p>
+          <p>
+            Lorem ipsum dolor sit amet Lorem ipsum dolor Lorem ipsum dolor sit
+            amet consectetur. consectetur.
+          </p>
         </div>
       </div>
 
+      <div class="contact-form row pb-4 border-bottom">
+        <h2 class="col-12 p-3 p-sm-5 text-center">Write to us</h2>
 
+        <form>
+          <div class="row">
+            <div class="mb-3 col-sm-4">
+              <label for="exampleInputName" class="form-label fw-bold"
+                >Name</label
+              >
+              <input type="text" class="form-control" id="exampleInputName" />
+            </div>
+            <div class="mb-3 col-sm-4">
+              <label for="exampleInputEmail1" class="form-label fw-bold"
+                >E-Mail</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+              />
+            </div>
+            <div class="mb-3 col-sm-4">
+              <label for="exampleInputPhone" class="form-label fw-bold"
+                >Phone</label
+              >
+              <input type="tel" class="form-control" id="exampleInputPhone" />
+            </div>
+          </div>
 
-
-
+          <div class="Contact-me-via d-sm-flex">
+            <p class="fw-bold me-4">Contact me via</p>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1"
+              />
+              <label class="form-check-label" for="inlineRadio1">E-mail</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2">Phone</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio3"
+                value="option3"
+              />
+              <label class="form-check-label" for="inlineRadio3"
+                >Telegram</label
+              >
+            </div>
+          </div>
+          <p class="fw-bold">Topo]ic</p>
+          <select class="form-select">
+            <option selected>Post my story</option>
+            <option value="1">Один</option>
+            <option value="2">Два</option>
+            <option value="3">Три</option>
+          </select>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label fw-bold"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label" for="flexCheckDefault">
+                I am a human
+              </label>
+            </div>
+            <button type="submit" class="btn my-btn border">Send</button>
+          </div>
+        </form>
+      </div>
     </main>
+
+    <footer class="container-lg my-4"  >
+      <div class="my-social text-center ">
+        <a href="#"
+          ><img class="my-img-size-footer" src="images/twitter-128.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="my-img-size-footer" src="images/facebook-128.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="my-img-size-footer" src="images/instagram-2-128.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="my-img-size-footer" src="images/youtube-128.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="my-img-size-footer" src="images/gmail-128.png" alt=""
+        /></a>
+      </div>
+      <p class="text-center mt-3">&copy; Untitled 2024</p>
+    </footer>
+
+
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
