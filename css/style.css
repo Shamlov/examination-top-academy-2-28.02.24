@@ -39,4 +39,35 @@ body {
   .my-gallery img {
     height: 500px;
   }
+}
+
+.br-bottom {
+  border-bottom: 1px solid rgb(50, 50, 50);
+}
+
+@media screen and (max-width: 576px) {
+  .br-bottom-s1 {
+    border-bottom: 1px solid rgb(50, 50, 50);
+  }
+}
+@media screen and (max-width: 768px) {
+  .br-bottom-s {
+    border-bottom: 1px solid rgb(50, 50, 50);
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .br-bottom-sm {
+    border-bottom: 1px solid rgb(50, 50, 50);
+  }
+  .br-right-sm {
+    border-right: 1px solid rgb(50, 50, 50);
+  }
+}
+@media screen and (min-width: 768px) {
+  .br-bottom-md {
+    border-bottom: 1px solid rgb(50, 50, 50);
+  }
+  .br-right-md {
+    border-right: 1px solid rgb(50, 50, 50);
+  }
 }/*# sourceMappingURL=style.css.map */
